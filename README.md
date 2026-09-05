@@ -55,4 +55,4 @@ jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root
 ```
 
 ### Extra time
-As we have currently designed the container, we need to update the data folder and re-build the container image if we or another user want to add new local PDBs. There is a better way to do this! Investigate volume mounting and see how you can update the image and container run command to avoid adding a frozen copy of the data directory.
+As we have currently designed the container, we need to update the data folder and re-build the container image if we or another user want to add new local PDBs. There is a better way to do this! Investigate volume mounting (bind mounts) and see how you can update the image and container run command to avoid adding a frozen copy of the data directory.
