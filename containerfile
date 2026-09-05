@@ -12,7 +12,7 @@ FROM python:3.12.5
 # 6. Invoke an entrypoint command, typically bash
 CMD ["bash"]
 
-# 6. Install jupyterlab, expose the port it runs on (incoming connections from HOST, your computer)
+# 7. Install jupyterlab, expose the port it runs on (incoming connections from HOST, your computer)
 # Run a container using this image that allows you to run the visualizing_sasa.ipynb
 # notebook on the host (your local computers browser!)
 # HINT: The command is a jupyter lab command
