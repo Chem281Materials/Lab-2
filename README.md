@@ -44,7 +44,7 @@ pip install -e .
 Verify that the `test_script.py` works.
 
 ### Update the containerfile to support running the python app and notebook!
-The python app and notebook both depend on the `sasa_viz` python library. For the container to run the app and notebook we would need to install `sasa_viz` library and any dependencies. Follow the steps in the containerfile to set up an image that can support running the `sasa.py` app and `visualizing_sasa.ipynb` from a container.
+The python app and notebook both depend on the `sasa_viz` python library. For the container to run the app and notebook we would need to install the working version of the `sasa_viz` library and any dependencies. Follow the steps in the containerfile to set up an image that can support running the `sasa.py` app and `visualizing_sasa.ipynb` from a container.
 
 ```
 # Running the app
