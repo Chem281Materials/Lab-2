@@ -1,7 +1,7 @@
 # 1. Use python 3.12.5 base image
 FROM python:3.12.5
 
-# 2. Clone the core dependency, the solvent-accesssible-area-analyzer package, and install it
+# 2. Clone the core dependency, the solvent-accessible-area-analyzer package, and install it
 
 # 3. Set a new WORKDIR 
 
